@@ -1,0 +1,123 @@
+body { 
+  display: grid;
+  grid-template-areas: 
+    "header header picture"
+    "nav article ads"
+    "footer footer footer";
+  grid-template-rows:  41% 41% 18%;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-row-gap: 2.5px;
+  height: 100vh;
+  margin: 0;
+  }
+
+header{
+  text-align: center;
+  padding: 110px;
+  font-size: 50px;
+  color: #E0E0D8
+} 
+
+footer{
+  text-align: center;
+  padding: 55px;
+  font-size: 20px;
+  color:#434B56;
+}
+  
+article {
+  text-align: center;
+  padding: 50px;
+  font-size: 15px;
+  color: #E0E0D8;
+} 
+
+nav{
+  text-align: center;
+  padding: 50px;
+  font-size: 15px;
+  color: #E0E0D8;
+}
+
+div {
+  text-align: center;
+  padding: 50px;
+  font-size: 15px;
+  color: #E0E0D8;
+}
+
+#pageHeader {
+  grid-area: header;
+  background: #434B56;
+}
+
+#pageFooter {
+  grid-area: footer;
+  background: #E0E0D8;
+}
+
+#mainArticle { 
+  grid-area: article;
+  background: #606F82;
+}
+
+#af{
+  font-size: 20px;
+}
+
+#mainNav { 
+  grid-area: nav; 
+  background: #434B56;
+}
+
+#nf {
+  font-size: 20px
+}
+
+#siteAds { 
+  grid-area: ads; 
+  background:gray;
+}
+
+#df {
+  font-size: 20px
+}
+
+#pagepic {
+  grid-area: picture;
+  background: #434B56
+}
+
+#Andre {
+  text-align: center;
+  padding: 40px;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+li{
+display: inline-block;
+}
+            
+a{
+color: #E0E0D8;
+}
+
+a:hover{
+background-color: ivory;
+padding: 5px;
+}
+
+a:active{
+background-color: #434B56;
+}
+
+a:visited{
+color: #E0E0D8;
+}
+
+a { text-decoration:none } 
+
