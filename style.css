@@ -2,48 +2,54 @@ body {
   display: grid;
   grid-template-areas: 
     "header header picture"
-    "nav article ads"
+    "nav article places"
     "footer footer footer";
   grid-template-rows:  41% 41% 18%;
   grid-template-columns: 33.3% 33.3% 33.3%;
   grid-row-gap: 2.5px;
   height: 100vh;
   margin: 0;
+  background-color: ivory;
   }
 
 header{
   text-align: center;
   padding: 110px;
-  font-size: 50px;
-  color: #E0E0D8
+  font-size: 60px;
+  color: #E0E0D8;
+  font-family: 'Times New Roman', Times, serif;
 } 
 
 footer{
   text-align: center;
   padding: 55px;
-  font-size: 20px;
+  font-size: 30px;
   color:#434B56;
+  font-family: 'Times New Roman', Times, serif;
 }
   
 article {
   text-align: center;
-  padding: 50px;
+  padding: auto;
   font-size: 15px;
   color: #E0E0D8;
+  margin: none;
 } 
 
 nav{
   text-align: center;
-  padding: 50px;
+  padding: auto;
   font-size: 15px;
   color: #E0E0D8;
+  margin: none;
 }
 
-div {
+places {
   text-align: center;
-  padding: 50px;
+  padding: auto;
   font-size: 15px;
   color: #E0E0D8;
+  margin: none;
 }
 
 #pageHeader {
@@ -62,7 +68,8 @@ div {
 }
 
 #af{
-  font-size: 20px;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #mainNav { 
@@ -71,16 +78,18 @@ div {
 }
 
 #nf {
-  font-size: 20px
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #siteAds { 
-  grid-area: ads; 
+  grid-area: places; 
   background:gray;
 }
 
 #df {
-  font-size: 20px
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #pagepic {
@@ -121,3 +130,26 @@ color: #E0E0D8;
 
 a { text-decoration:none } 
 
+.button {
+
+  background-color: #E0E0D8;
+
+  border: none;
+
+  color: #434B56;
+
+  padding: 15px 80px;
+
+  text-align: center;
+
+  text-decoration: none;
+
+  display: inline-block;
+
+  font-size: 20px;
+
+  cursor: pointer;
+
+  font-family: 'Times New Roman', Times, serif;
+
+}
